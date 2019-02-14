@@ -72,7 +72,7 @@ The kubectl logs command only shows the log entries from the last rotation.
     kubectl exec -it <containername> -- /bin/bash
 
  ## labels
-    kubectl get pods --show--labels
+    kubectl get pods --show-labels
     kubectl get pods --selector <key-label>=<value-label>
     kubectl get pods -l <key-label>=<value-label>
     kubectl get pods -l '<label-name> in (label-value1, label-value2)'
